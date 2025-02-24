@@ -1,5 +1,3 @@
-Here’s a `README.md` file for your repository:
-
 ```markdown
 # REST API Learning - Flask Drinks API
 
