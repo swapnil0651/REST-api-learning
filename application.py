@@ -1,7 +1,8 @@
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'  #to create a db schemaaaa we can initialise a db using pythoncli if we want hehe check flask docs
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'  #to create a db schema 
+#we can initialise a db using pythoncli if we want hehe check flask docs
 db = SQLAlchemy(app)
 
 class Drink(db.Model):
